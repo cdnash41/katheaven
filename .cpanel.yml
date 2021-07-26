@@ -1,0 +1,12 @@
+
+2
+3
+4
+5
+6
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=C:\Users\cdnas\Documents\GitHub\katheaven
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp style.css $DEPLOYPATH
